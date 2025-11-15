@@ -1,0 +1,148 @@
+/* face Page*/
+
+.face-container {
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.div-row {
+  height: 100%;
+}
+
+.div-col {
+  background-color: #f5f7fa;
+}
+
+.div-form {
+  width: 70%;
+}
+
+.form-control {
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.form-control:hover {
+  transform: scale(1.05);
+}
+
+.right-section {
+  background: linear-gradient(135deg, #ad5a4d);
+  color: white;
+  text-align: center;
+}
+
+.left-section{
+  background-color: #ad5a4d;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 150px;
+  border-bottom-right-radius: 150px;
+}
+
+h1.display-4 {
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+button h4 {
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background-image: url('./assets/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.navigation{
+  background-color :#ad5a4d;
+  height: 75px;
+}
+
+.navs{
+  padding: 30px;
+}
+
+.nav-link{
+  color:#f5f7fa;
+   font-weight: 500;
+
+}
+
+.h2{
+  color:#f5f7fa;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+.title{
+  text-align: center;       
+  margin-top: 40px;
+  font-family: 'Pacifico', cursive;
+  color:#8c4d3d ;
+}
+.title2{
+  font-family: 'Pacifico', cursive;
+  color:#8c4d3d ;
+  margin-top: 20px;
+  text-align: center;       
+}
+
+.h4{
+  color:#a55c4a
+}
+
+.h5{
+    color:#a55c4a;
+    font-size: 20px;
+}
+
+.actPic{
+  margin-top: 110px;
+  mix-blend-mode: multiply;
+}
+
+.dropdown-small {
+  color:#8c4d3d;
+  width: 300px;     
+  max-width: 300px;
+  white-space: normal; 
+  font-family: 'Nunito', sans-serif;
+
+}
+
+.details{
+  font-size: 20px;
+  color:#8c4d3d;
+}
+
+.coTitle{
+  color:#8c4d3d ;
+  font-family: 'Poppins',sans-serif;
+  margin-top: 20px;
+  text-align: center; 
+  font-weight: 700;
+}
+
+.desc-btn{
+  color:#8c4d3d;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  font-size: 20px;
+}
+.coPic{
+  border-radius: 42%; 
+  object-fit: cover; 
+}
